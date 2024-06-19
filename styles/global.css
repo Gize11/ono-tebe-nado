@@ -10,7 +10,6 @@ html {
 
 body {
   width: 1100px;
-  height: 3028px;
   margin: 0 auto;
   font-family: Raleway, Arial, sans-serif;
   position: relative;
@@ -42,21 +41,4 @@ img {
 
 address {
   font-style: normal;
-}
-
-input[type="button" i] {
-  appearance: unset;
-  user-select: none;
-  text-align: center;
-  cursor: default;
-  box-sizing: border-box;
-  white-space: unset;
-  padding-block: 0;
-  padding-inline: 0;
-  border-width: 1px;
-  border-style: solid;
-  border-color:white;
-  border-image: none;
-  color: white;
-  background-color: transparent;
 }

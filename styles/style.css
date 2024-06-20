@@ -18,7 +18,10 @@
   margin-top: 44px;
 }
 
-.header__link_active {
+/* Решила вернуться к предыдущему варианту, 
+т.к. если ставить класс ссылке, то не стилизовать пункт списка */
+
+.header__menu-list-item-no-bullet {
   list-style: none;
 }
 
@@ -42,8 +45,7 @@
   justify-self: end;
 }
 
-.contact-number,
-.contact-email {
+.address__link {
   border-bottom: 1px solid black;
 }
 
@@ -281,6 +283,7 @@ footer {
   min-height: 98px;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 88px;
 }
 
 .footer__menu {
